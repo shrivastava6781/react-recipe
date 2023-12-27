@@ -1,0 +1,35 @@
+/* Carousel.css */
+
+/* Hide the arrows */
+.carousel .control-arrow {
+    display: none !important;
+  }
+  
+  /* Hide the slide status indicators */
+  .carousel .thumbs-wrapper {
+    display: none !important;
+  }
+  
+  /* Style for the wrapper */
+  .carousel-wrapper {
+    width: 80%; /* Adjust the width as needed */
+    margin: auto; /* Center the carousel */
+  }
+  
+  /* Style for each carousel image container */
+  .carousel-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* Set the height of each image container */
+  }
+  
+  /* Style for the images within the carousel */
+  .carousel-images img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    max-height: 100%; /* Ensure images don't exceed their container */
+    border-radius: 8px; /* Add border radius if desired */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow effect */
+    object-fit: cover; /* Maintain image aspect ratio */
+  }
+  
